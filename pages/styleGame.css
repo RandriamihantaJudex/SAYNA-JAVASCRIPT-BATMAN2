@@ -1,0 +1,343 @@
+@font-face {
+  font-family: radjhani;
+  src: url("../fonts/rajdhani/Rajdhani-Bold.ttf"),
+    url("../fonts/rajdhani/Rajdhani-Light.ttf"),
+    url("../fonts/rajdhani/Rajdhani-Medium.ttf"),
+    url("../fonts/rajdhani/Rajdhani-Regular.ttf");
+}
+@font-face {
+  font-family: Space_Grotesk;
+  src: url("../fonts/Space_Grotesk/SpaceGrotesk-VariableFont_wght.ttf");
+}
+button{
+  cursor: pointer;
+}
+* {
+  scroll-behavior: smooth;
+}
+h2 {
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 5px;
+}
+h3,
+h4 {
+  padding: 0px;
+  margin: 0px;
+}
+p {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  margin: 0px;
+  padding: 0;
+  background-color: rgb(0, 0, 0);
+  font-family:Space_Grotesk ;
+}
+.mainComponent {
+  margin: 0px;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  background-color: black;
+}
+p {
+  text-align: center;
+}
+
+/* SECTION HOME */
+
+.conteneur_1 {
+  height: 700px;
+  width: 100%;
+  padding-left: 102px;
+  padding-right: 102px;
+  background-image: url("../Illustrations/Batgame_1.png");
+  background-position: center;
+  background-size: 100%;
+}
+.home {
+  border-left: solid #bcbbbd 1px;
+  border-right: solid #bcbbbd 1px;
+  height: 100%;
+  width: 100%;
+}
+.navigation {
+  position: fixed;
+  height: 100vh;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.element_navigation {
+  animation: opacite 2s;
+}
+.element_navigation {
+  z-index: 100;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 350px;
+  width: 200px;
+  justify-content: space-evenly;
+}
+.navBar1 {
+  height: 132px;
+  width: 100%;
+  border-bottom: solid #bcbbbd 2px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+}
+.logo {
+  margin-left: 55px;
+}
+.logo:hover {
+  filter: invert(33%) sepia(100%) saturate(8);
+  cursor: pointer;
+}
+.yellow:hover {
+  filter: invert(33%) sepia(100%) saturate(8);
+  cursor: pointer;
+}
+
+.lien_home {
+  cursor: pointer;
+  margin-right: 55px;
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  font-family: Space_Grotesk;
+}
+
+.lien_home:hover {
+  text-decoration: underline;
+}
+.lien_home:focus {
+  text-decoration: underline;
+  color: red;
+}
+
+.presentation {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.playAGame {
+  margin-left: 40px;
+}
+.playAGame h1 {
+  font-family: Space_Grotesk;
+  letter-spacing: 2px;
+  font-size: 2rem;
+}
+.fleche {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-left: solid #bcbbbd 1px;
+  border-right: solid #bcbbbd 1px;
+}
+
+.GameComponent {
+  height: 900px;
+  width: 100%;
+  padding-left: 102px;
+  padding-right: 102px;
+  margin-top: 100px;
+}
+.gameSection {
+  border-left: solid #bcbbbd 1px;
+  border-right: solid #bcbbbd 1px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.questionDiv {
+  height: 350px;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.imageQuizz {
+  height: 60%;
+  width: 25%;
+}
+.Cubequestion {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 70%;
+  width: 65%;
+}
+.Cubequestion p {
+  height: auto;
+  margin-bottom: 20px;
+  text-align: start;
+}
+
+.Cubequestion .reponse {
+  width: 100%;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  background-color: grey;
+  margin-bottom: 10px;
+  align-items: center;
+}
+.Cubequestion .reponse form {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.Cubequestion .reponse form .checker {
+  width: 20px;
+  height: 90%;
+  margin-right: 10px;
+}
+.next{
+    height: 60px;
+    width: 60%;
+    margin-top: -30px;
+    display: flex;
+    justify-content: space-between;
+}
+.next button{
+    height: 100%;
+    width: 50%;
+    margin-left: 25%;
+    border: none;
+    color: white;
+    background: linear-gradient(130deg,rgba(101, 101, 102, 0.644) 0%,rgba(255, 255, 255, 0.534) 40%, rgba(255, 124, 2, 0.39) 100%);
+    margin-right: 15%;
+    letter-spacing:1px;
+}
+.buttonTest:hover{
+border: solid white 1px;
+border-radius: 5px;
+letter-spacing:1.5px;
+}
+
+.fin {
+    height: 100px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo_wb {
+    display: flex;
+  }
+  .logo_wb p {
+    margin-left: 10px;
+    font-size: 12px;
+  }
+  
+  .logo_fin {
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+.answerComponent{
+  width: 100%;
+}
+.notActive{
+  width: 100%;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  background-color: grey;
+  margin-bottom: 10px;
+  align-items: center;
+  color: white;
+}
+.active{
+  width: 100%;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  background-color: grey;
+  margin-bottom: 10px;
+  align-items: center;
+  color: orange;
+}
+.smog{
+  display: none;
+}
+.vrai{
+  width: 100%;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  background-color: grey;
+  margin-bottom: 10px;
+  align-items: center;
+  color: green;
+}
+.faux{
+  width: 100%;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  background-color: grey;
+  margin-bottom: 10px;
+  align-items: center;
+  color: rgb(209, 9, 9);
+}
+.popUp{
+  position: fixed;
+  height: 60vh;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 20vh;
+  z-index: 1000;
+  background: linear-gradient(130deg,rgba(40, 40, 41, 0.644) 0%,rgba(255, 255, 255, 0.534) 40%, rgba(255, 124, 2, 0.39) 100%);
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  border-radius: 12px;
+  font-family: Space_Grotesk;
+  display: none;
+}
+.popUp p{
+  width: 70%;
+  letter-spacing: 1.5px;
+}
+.popUp h2{
+  border-bottom: solid white 2px;
+}
+.popUp a{
+  cursor: pointer;
+  letter-spacing: 1.5px;
+  height: 30px;
+  padding: 10px 30px;
+  border: none;
+  background: linear-gradient(90deg,rgba(255, 255, 255, 0.534) 0%,rgb(255, 94, 0) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+}
+
+
+.randomImage{
+  position: absolute;
+  height: 130px;
+  width: 130px;
+}

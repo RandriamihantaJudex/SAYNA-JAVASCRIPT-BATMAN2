@@ -1,0 +1,1002 @@
+@font-face {
+  font-family: radjhani;
+  src: url("../fonts/rajdhani/Rajdhani-Bold.ttf"),
+  url("../fonts/rajdhani/Rajdhani-Light.ttf"),
+  url("../fonts/rajdhani/Rajdhani-Medium.ttf"),
+  url("../fonts/rajdhani/Rajdhani-Regular.ttf");
+}
+@font-face {
+  font-family: Space_Grotesk;
+  src: url("../fonts/Space_Grotesk/SpaceGrotesk-VariableFont_wght.ttf");
+}
+
+* {
+  scroll-behavior: smooth;
+}
+h2 {
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 5px;
+}
+h3,
+h4 {
+  padding: 0px;
+  margin: 0px;
+}
+p {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  margin: 0px;
+
+}
+.MainComponent{
+  margin: 0px;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  background-color: black;
+}
+p {
+  text-align: center;
+}
+
+        /* SECTION HOME */
+
+.conteneur_1 {
+  height: 900px;
+  width: 100%;
+  padding-left: 102px;
+  padding-right: 102px;
+  background-image: url("../Illustrations/Bathome1.png");
+  background-position: 100%;
+}
+.home {
+  border-left: solid #bcbbbd 1px;
+  border-right: solid #bcbbbd 1px;
+  height: 100%;
+  width: 100%;
+}
+.navigation {
+  position:fixed;
+  height: 100vh;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.element_navigation{
+  animation: opacite 2s;
+}
+.element_navigation {
+  z-index: 100;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 350px;
+  width: 200px;
+  justify-content: space-evenly;
+}
+.navBar {
+  height: 132px;
+  width: 100%;
+  border-bottom: solid #bcbbbd 2px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 40px;
+}
+.logo {
+  margin-left: 55px;
+  
+}
+.logo:hover {
+  filter: invert(33%) sepia(100%) saturate(8);
+  cursor: pointer;
+}
+.yellow:hover {
+  filter: invert(33%) sepia(100%) saturate(8);
+  cursor: pointer;
+}
+
+.lien_home {
+  cursor: pointer;
+  margin-right: 55px;
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  font-family:Space_Grotesk ;
+}
+
+.lien_home:hover {
+  text-decoration: underline;
+}
+.lien_home:focus {
+  text-decoration: underline;
+  color: red;
+}
+
+.presentation {
+  height: 750px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.intro {
+  font-weight: 100;
+  font-size: 24px;
+  font-family:Space_Grotesk ;
+}
+.batman_titre {
+  font-size: 25px;
+  font-family:Space_Grotesk ;}
+.carte {
+  height: 250px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.bouton_hero_adv {
+  margin-top: 25px;
+  width: 80%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.bouton_personaliser {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  text-decoration: none;
+  color: white;
+  font-family:Space_Grotesk ;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.254) 0%,
+    rgba(255, 255, 255, 0.254) 50%,
+    rgba(255, 0, 0, 0.38) 100%
+  );
+  padding: 20px 30px;
+}
+.bouton_personaliser:hover {
+  color: #0d0e09;
+  background: linear-gradient(90deg, #eddebf 0%, #eddebf 50%, #89000b 100%);
+}
+
+.fleche {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+    /* SECTION BATMAN AU CINEMA */
+
+.personnage {
+  height: 900px;
+  width: 100%;
+  padding-left: 102px;
+  padding-right: 102px;
+}
+.cinema {
+  border-left: solid #bcbbbd 1px;
+  border-right: solid #bcbbbd 1px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.resume_batman {
+  margin-top: 70px;
+  padding-left: 90px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  height: 270px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.p_perso {
+  text-align: justify;
+  font-size: 20px;
+  font-weight: normal;
+  letter-spacing: 3px;
+}
+.carte_batman {
+  margin-top: 20px;
+  margin-left: 90px;
+  margin-right: 90px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.carte3 {
+  height: 90%;
+  width: 27%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background: url("../Illustrations/Bathome2.png") 100% center no-repeat;
+  cursor: pointer;
+}
+.infoPlus{
+  height: 25%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: solid rgba(255, 255, 255, 0.13) 1px;
+  background-color: #0d0e093c;
+  display: none;
+}
+.portrait{
+  height: 70%;
+  width: 80%;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  background:linear-gradient(90deg,rgba(255, 255, 255, 0.452) 0%,rgba(135, 22, 0, 0.559) 100%) ;
+}
+.centreEnd{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  font-size: 9px;
+}
+.imagePatt{
+  margin-left: 5px;
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-size: 100%;
+}
+.image {
+  border: solid #19587d;
+  height: 85%;
+  width: 100%;
+  transition: 0.4s;
+}
+.image:hover {
+  height: 85%;
+  width: 110%;
+}
+.a1 {
+  background-image: url("../Illustrations/Bathome2.png");
+}
+.a2 {
+  background-image: url("../Illustrations/Bathome3.png");
+}
+.a3 {
+  background-image: url("../Illustrations/Bathome4.png");
+}
+.a4 {
+  background-image: url("../Illustrations/Bathome5.png");
+}
+.a5 {
+  background-image: url("../Illustrations/Bathome6.png");
+}
+.a6 {
+  background-image: url("../Illustrations/Bathome7.png");
+}
+.a7 {
+  background-image: url("../Illustrations/Bathome9.png");
+}
+.a8 {
+  background-image: url("../Illustrations/Bathome8.png");
+}
+.a9 {
+  background-image: url("../Illustrations/Bathome10.png");
+}
+.acteur {
+  height: 15%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+}
+.carte3 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.batarang {
+  height: 120px;
+  width: 120px;
+  position: absolute;
+  margin-left: 130px;
+  margin-top: -30px;
+}
+
+.black {
+  height: 0.1px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.image_bat {
+  margin-top: -120px;
+  height: 250px;
+  position: absolute;
+  z-index: -1;
+}
+
+        /* SECTION JUSTICE LEAGUE */
+
+.justice_league {
+  display: flex;
+  flex-direction: column;
+  height: 800px;
+  width: 100%;
+}
+.carte_justice {
+  height: 300px;
+  margin: 0px 102px;
+  border-left: solid #bcbbbd 1px;
+  border-right: solid #bcbbbd 1px;
+}
+.resume_batman2 {
+  padding-left: 90px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  height: 100%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+}
+.fanion {
+  height: 500px;
+  width: 100%;
+  background-image: url("../Illustrations/Bathome11.png");
+}
+
+    /* SECTION MULTIMEDIA */
+
+.multimedia {
+  margin-top: 50px;
+  height: 1200px;
+  width: 100%;
+}
+.centrer {
+  display: flex;
+  justify-content: center;
+}
+.contenu_multimedia {
+  height: 100%;
+  margin: 0 102px;
+  border-left: solid #bcbbbd 1px;
+  border-right: solid #bcbbbd 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.carte_multi {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-top: 50px;
+  height: 300px;
+  width: 80%;
+}
+.info_multi {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.carte_multim {
+  height: 90%;
+  width: 50%;
+  display: flex;
+}
+.image_multi {
+  width: 25%;
+  height: 100%;
+  /* background-image: url("../Illustrations/Bathome_ba1.png");
+background-position: 100%; */
+}
+.image_film {
+  height: 100%;
+  width: 100%;
+}
+.apropos {
+  font-size: 12px;
+  height: 100%;
+  width: 75%;
+  background: linear-gradient(140deg, #eddebf67 0%, #19587d85 100%);
+  border-radius: 0px 10px 10px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.space {
+  letter-spacing: 4px;
+}
+.marge {
+  margin-left: 12px;
+}
+.resume {
+  margin-left: 12px;
+  margin-right: 12px;
+  text-align: left;
+  font-size: 12px;
+}
+.jaune {
+  color: #ffff00;
+}
+.trailer{
+  margin-top: 100px;
+  height: 40%;
+  width: 80%;
+  background: url("../Illustrations/Bathome_ba2.png");
+  background-size: 100%;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.play_video{
+  cursor: pointer;
+  border-radius: 50%;
+}
+.play_video:hover{
+  border: solid white 3px;
+}
+.video{
+  height: 100%;
+  width: 100%;
+  display: none;
+}
+
+
+    /* SECTION FORMULAIRE */
+
+.formulaire {
+  height: 900px;
+  width: 100%;
+  background: linear-gradient(140deg, #eddebf67 0%, #19587d85 100%);
+  display: flex;
+  flex-direction: column;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.form {
+  height: 70%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+}
+input {
+  background-color: rgba(255, 0, 0, 0);
+  border: none;
+  border-bottom: solid white 1px;
+}
+input::placeholder {
+  color: rgb(201, 201, 201);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+.F1 {
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+.F2 {
+  margin-top: 50px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+.F3 {
+  margin-top: 90px;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+.label_c {
+  margin-right: 50px;
+}
+#check {
+  height: 20px;
+  width: 20px;
+}
+select {
+  background-color: rgba(255, 0, 0, 0);
+  border: none;
+  color: white;
+  border-bottom: solid white 1px;
+}
+option {
+  color: white;
+  background-color: #19587d85;
+}
+.list_bouton {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.btn_film {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin: 0px 15px;
+  background: none;
+  border: solid white 1px;
+  padding: 0px 30px;
+}
+.btn_film:hover {
+  background-color: white;
+  color: #19587d85;
+}
+.confirmer {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn_confirmer {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 40%;
+  border: none;
+  color: white;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.254) 0%,
+    rgba(255, 255, 255, 0.254) 50%,
+    rgba(255, 0, 0, 0.38) 100%
+  );
+}
+.btn_confirmer:hover {
+  color: #0d0e09;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.754) 0%,
+    rgba(255, 255, 255, 0.754) 50%,
+    rgb(255, 0, 0) 100%
+  );
+}
+.popUp {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: fixed;
+  height: 60vh;
+  width: 40vw;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  transition: 0.5;
+  background: linear-gradient(140deg, #838281 0%, #19587d 100%);
+  display: none;
+  margin-top: 20vh;
+  margin-right: 30vw;
+  animation: fadeHaut 2s;
+}
+.testMenu{
+  height:auto;
+  width: 674px;
+  background: linear-gradient(140deg, #7d7d7c 0%, #0f2f42 100%);
+  position: absolute;
+  margin-top: 140px;
+  display: none;
+}
+.choix5{
+  cursor: pointer;
+  border-bottom: solid white 1px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.choix5:hover{
+  background-color: #0d0e092b;
+}
+.pSelect{
+  margin-left: 7px;
+}
+.select{
+  height: 30px;
+  width: 100%;
+  border-bottom: solid white 1px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor:pointer;
+}
+.fleche_bas{
+  height: 60%;
+  margin-right: 10px;
+}
+@keyframes fadeHaut{
+  0%{
+    margin-top: 10vh;
+  }
+  100%{
+    margin-top: 20vh;
+  }
+}
+
+        /* SECTION FOOTER */
+
+.quotes {
+  height: 750px;
+  width: 100%;
+  background-color: #0d0e09;
+}
+.footer_child {
+  height: 100%;
+  margin: 0px 102px;
+  border-left: solid #bcbbbd 1px;
+  border-right: solid #bcbbbd 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.footer_carte {
+  height: 60%;
+  width: 70%;
+}
+.virgule {
+  height: 15%;
+  width: 100%;
+}
+.citation {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.citation p {
+  width: 50%;
+}
+.virgule2 {
+  height: 15%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.bulles {
+  display: flex;
+}
+.bulle {
+  height: 6px;
+  width: 6px;
+  margin: 0px 5px;
+  border-radius: 50%;
+  border: solid #19587d 1px;
+}
+.active {
+  background-color: #19587d;
+  border: solid #19587d 1px;
+}
+.fin {
+  height: 100px;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo_wb {
+  display: flex;
+}
+.logo_wb p {
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+.logo_fin {
+  width: 300px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.taille {
+  height: 33px;
+  width: 33px;
+}
+.mini {
+  height: 25px;
+  width: 25px;
+}
+.minii {
+  height: 17px;
+  width: 17px;
+}
+.nextBatman {
+  display: none;
+}
+.index {
+  cursor: pointer;
+}
+
+.plus {
+  height: auto;
+  position: absolute;
+  margin-top: 45%;
+  background-color: rgba(0, 128, 0, 0);
+}
+#voirPlus {
+  display: none;
+}
+.acteur h2 {
+  text-align: center;
+}
+
+/* MODIFICATION EN VERSION MOBILE */
+
+
+@media (max-width: 920px) {
+  .a1 {
+    background: url("../Illustrations/Bathome2.png");
+  }
+  .a2 {
+    background-image: url("../Illustrations/Bathome3.png");
+  }
+  .a3 {
+    background-image: url("../Illustrations/Bathome4.png");
+  }
+.carte3{
+  height: 90%;
+  width: 27%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-image: url("../Illustrations/Bathome2.png");
+}
+
+.imagePatt{display: none;}
+  .navigation {
+    display: none;
+  }
+  .conteneur_1 {
+    padding: 0;
+  }
+  .home {
+    border: none;
+  }
+  .bouton_personaliser {
+    height: 15px;
+    width: 80px;
+    text-align: center;
+  }
+  .personnage {
+    padding: 0px;
+  }
+  .carte_batman {
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  .carte3 {
+    width: 200px;
+    margin: 0 40px;
+    background: url("../Illustrations/Bathome2.png") center;
+  }
+  #Bat2,
+  #Bat3 {
+    width: 200px;
+    display: none;
+  }
+  #nem2,
+  #nem3 {
+    width: 200px;
+    display: none;
+  }
+  #all2,
+  #all3 {
+    width: 200px;
+    display: none;
+  }
+  .p_perso {
+    display: none;
+  }
+  .nextBatman {
+    display: block;
+  }
+  .resume_batman {
+    /* margin: 10px; */
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15%;
+    width: 100%;
+  }
+  .cinema {
+    border: none;
+  }
+  .Batman_cine {
+    margin-left: 10px;
+  }
+  .carte_batman {
+    margin: 0;
+  }
+  body {
+    justify-content: center;
+  }
+  .cynema {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  #voirPlus {
+    display: block;
+    width: 80%;
+    border: solid #19587d 2px;
+    border-radius: 7px;
+    padding: 10px 0;
+    color: #19587d;
+    margin-bottom: 10px;
+  }
+  .carte_justice{
+    margin: 0;
+    border: none;
+  }
+  .resume_batman2{
+    padding: 0;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .contenu_multimedia{
+    border: none;
+    margin: 0;
+  }
+  .resume{
+    display: none;
+  }
+  .form{
+    width: 90%;
+  }
+  .footer_child{
+    border: none;
+    margin: 0;
+  }
+  .carte_multi h1{
+    display: flex;
+    justify-content: center;
+  }
+  .carte_multim{
+    width: 70%;
+  }
+  .bande{
+    width: 90%;
+  }
+  .nextBatman{
+    height: 30px;
+    width: 30px;
+  }
+  .multi_left{
+    height: 30px;
+    width: 30px;
+  }
+  .navigation{
+    display: none;
+  }
+
+}
+.popUp_plus {
+  border-radius: 0 0 7px 7px;
+  padding: 10px 10px;
+  position: fixed;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 90%;
+  height: auto;
+  background-color: white;
+  color: #0d0e09;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.BtnPopup {
+  background-color: #19587d;
+  padding: 10px;
+  color: white;
+  border: none;
+  margin-top: 5px;
+  border-radius: 7px;
+  width: 90%;
+}
+.BtnPopup:hover {
+  cursor: pointer;
+  background-color: #21709e;
+}
+.popUp_plus p,
+h1,
+button {
+  padding: 0;
+  margin: 0;
+}
+.actif{
+  text-decoration: underline;
+  font-weight:bolder;
+  color: #ffff00;
+}
+.MainComponent{
+  animation: opacite 2s;
+}
+
+/* ANIMATION  */
+
+@keyframes opacite {
+  0%{
+    margin-left: -500px;
+    opacity: 0;
+  }
+  100%{
+    margin-left: 0px;
+    opacity: 1;
+
+  }
+}
+.carte_multim{
+  height: 100%;
+}
+button,h1{
+  font-family: radjhani;
+}
+h2,h3,h4,p,a{
+  font-family:Space_Grotesk ;
+}
+h1{
+  font-size:  36px;
+}
+button{
+  font-size: 20px;
+}
+h2{
+  font-size:  20px;
+}
+p{
+  font-size: 16px;
+}
+
+
+
+
+
+
+

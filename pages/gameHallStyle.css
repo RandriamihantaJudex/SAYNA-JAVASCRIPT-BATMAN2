@@ -1,0 +1,214 @@
+@font-face {
+    font-family: radjhani;
+    src: url("../fonts/rajdhani/Rajdhani-Bold.ttf"),
+      url("../fonts/rajdhani/Rajdhani-Light.ttf"),
+      url("../fonts/rajdhani/Rajdhani-Medium.ttf"),
+      url("../fonts/rajdhani/Rajdhani-Regular.ttf");
+  }
+  @font-face {
+    font-family: Space_Grotesk;
+    src: url("../fonts/Space_Grotesk/SpaceGrotesk-VariableFont_wght.ttf");
+  }
+  button{
+    cursor: pointer;
+  }
+  * {
+    scroll-behavior: smooth;
+  }
+  h2 {
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 5px;
+  }
+  h3,
+  h4 {
+    padding: 0px;
+    margin: 0px;
+  }
+  p {
+    padding: 0px;
+    margin: 0px;
+  }
+  body {
+    margin: 0px;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+    font-family:Space_Grotesk ;
+  }
+  .mainComponent {
+    margin: 0px;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    background-color: black;
+  }
+  p {
+    text-align: center;
+  }
+  
+  /* SECTION HOME */
+  
+  .conteneur_1 {
+    height: 700px;
+    width: 100%;
+    padding-left: 102px;
+    padding-right: 102px;
+    background-image: url("../Illustrations/Batgame_1.png");
+    background-position: center;
+    background-size: 100%;
+  }
+  .home {
+    border-left: solid #bcbbbd 1px;
+    border-right: solid #bcbbbd 1px;
+    height: 100%;
+    width: 100%;
+  }
+  .navigation {
+    position: fixed;
+    height: 100vh;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .element_navigation {
+    animation: opacite 2s;
+  }
+  .element_navigation {
+    z-index: 100;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 350px;
+    width: 200px;
+    justify-content: space-evenly;
+  }
+  .navBar1 {
+    height: 132px;
+    width: 100%;
+    border-bottom: solid #bcbbbd 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+  }
+  .logo {
+    margin-left: 55px;
+  }
+  .logo:hover {
+    filter: invert(33%) sepia(100%) saturate(8);
+    cursor: pointer;
+  }
+  .yellow:hover {
+    filter: invert(33%) sepia(100%) saturate(8);
+    cursor: pointer;
+  }
+  
+  .lien_home {
+    cursor: pointer;
+    margin-right: 55px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-family: Space_Grotesk;
+  }
+  
+  .lien_home:hover {
+    text-decoration: underline;
+  }
+  .lien_home:focus {
+    text-decoration: underline;
+    color: red;
+  }
+  
+  .presentation {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .playAGame {
+    margin-left: 40px;
+  }
+  .playAGame h1 {
+    font-family: Space_Grotesk;
+    letter-spacing: 2px;
+    font-size: 2rem;
+  }
+  .fleche {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-left: solid #bcbbbd 1px;
+    border-right: solid #bcbbbd 1px;
+  }
+  .fin {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo_wb {
+    display: flex;
+  }
+  .logo_wb p {
+    margin-left: 10px;
+    font-size: 12px;
+  }
+  
+  .logo_fin {
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+
+  .GameComponent {
+    height: 1000px;
+    width: 100%;
+    padding-left: 102px;
+    padding-right: 102px;
+    margin-top: 100px;
+  }
+  .gameSection {
+    border-left: solid #bcbbbd 1px;
+    border-right: solid #bcbbbd 1px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .batman{
+    width: 80%;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .batman img{
+    height: 80%;
+    width: 80%;
+  }
+  .gameSection a{
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(130deg,rgba(40, 40, 41, 0.644) 0%,rgba(255, 255, 255, 0.534) 40%, rgba(255, 124, 2, 0.39) 100%);
+    padding: 15px 45px;
+    letter-spacing: 1.5px;
+  }
+  .gameSection a:hover{
+      border: solid white 1px;
+      border-radius: 5px;
+      letter-spacing:1.5px;
+
+  }
